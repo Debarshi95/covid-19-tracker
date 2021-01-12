@@ -1,0 +1,21 @@
+.map__container {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.map__container .leaflet-container {
+  height: 45vh;
+}
+
+.leaflet-popup-content p {
+  margin: 0 !important;
+  font-family: inherit;
+}
+
+@media screen and (min-width: 842px) {
+  .map__container .leaflet-container {
+    height: 66vh;
+  }
+}

@@ -1,0 +1,45 @@
+.infoCard {
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.7rem;
+}
+
+.infoCard__Cases {
+  background-color: #dc293f !important;
+}
+
+.infoCard__Recovered {
+  background-color: #008900 !important;
+}
+
+.infoCard__Deaths {
+  background-color: #c20000 !important;
+}
+.infoCard--selected {
+  border: 4px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.infoCard__todayCases {
+  text-align: center;
+  color: #fff;
+  font-family: inherit !important;
+}
+
+.infoCard__totalCases {
+  font-family: "Open Sans" !important;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 0.8rem !important;
+}
+
+@media screen and (min-width: 842px) {
+  .infoCard {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .infoCard {
+    padding: 2rem;
+  }
+}

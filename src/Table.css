@@ -1,0 +1,37 @@
+.table-wrapper {
+  height: 50vh;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.table-wrapper > h4 {
+  padding: 0 0.7rem;
+  margin-bottom: 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+  border-spacing: 0;
+}
+
+th {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+td {
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 0.8rem;
+}
+
+tbody tr:nth-last-of-type(even) {
+  background-color: rgb(224, 224, 224);
+}
+
+@media screen and (min-width: 990px) {
+  .table-wrapper {
+    height: 52vh;
+  }
+}
